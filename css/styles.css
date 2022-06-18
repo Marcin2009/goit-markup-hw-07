@@ -58,13 +58,14 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--brand-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .header-nav-link:hover,
 .header-nav-link:focus,
 .header-contact-link:hover,
 .header-contact-link:focus {
-  color: #2196f3;
+  color: var(--link-color-hover);
 }
 
 .header-contact-link {
@@ -79,6 +80,7 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .header {
@@ -107,6 +109,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
 .header-contact-list {
@@ -130,7 +133,7 @@ img {
   content: "";
   border-radius: 2px;
   background-color: var(--link-color-hover);
-  width: 53px;
+  width: 58px;
   height: 4px;
   position: absolute;
 }
@@ -144,7 +147,7 @@ img {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
-  color: #2196f3;
+  color: var( --link-color-hover);
   text-align: center;
   align-items: center;
 }
@@ -157,7 +160,7 @@ ul {
 }
 
 .order-btn {
-  background: #2196f3;
+  background: var( --link-color-hover);
 
   font-weight: 700;
   font-size: 16px;
@@ -166,16 +169,22 @@ ul {
   height: 50px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color: white;
+  color: var(--studio-bottom-color);
   display: block;
   margin-left: auto;
   margin-right: auto;
+  
+  
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-btn:hover,
 .order-btn:focus {
-  cursor: pointer;
+color: var(--link-color-hover);
+background-color: var(--studio-bottom-color) ;
 }
+
 
 .orders {
   height: 600px;
@@ -343,6 +352,7 @@ ul {
   border-radius: 50%;
   align-items: center;
   justify-content: space-around;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .team-social-icon-item:not(:last-child) {
   margin-right: 10px;
@@ -380,6 +390,7 @@ ul {
   justify-content: center;
   display: flex;
   fill: var(--color-icon);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 .our-customers-icon {
   width: 106px;
