@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
   </head>
-  
+
   <body>
     <header class="header">
       <div class="container header-nav">
@@ -25,7 +25,9 @@
           >
           <ul class="header-nav-list list">
             <li class="header-nav-item">
-              <a class="header-nav-link link active" href="index.html">Agencja</a>
+              <a class="header-nav-link link active" href="index.html"
+                >Agencja</a
+              >
             </li>
             <li class="header-nav-item">
               <a class="header-nav-link link" href="portfolio.html"
@@ -61,7 +63,9 @@
       <section class="orders">
         <div class="container">
           <h1 class="order-title">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button class="modal-btn" type="button" data-modal-open>Zamów usługę</button>
+          <button class="modal-btn" type="button" data-modal-open>
+            Zamów usługę
+          </button>
         </div>
       </section>
       <section class="feature-menu">
@@ -376,64 +380,73 @@
     </main>
     <footer class="footer-menu-nav">
       <div class="container">
-        <h3 class="footer-logo">
-          <a class="logo link" href="index.html"
-            >Web<span class="studio-bottom">Studio</span></a
-          >
-        </h3>
-        <address class="footer-contact">
-          <ul class="footer-contact-list">
-            <li class="footer-contact-item adress">
-              m. Warszawa, Aleje Jerozolimskie 21
+        <div class="footer-content">
+          <h3 class="footer-logo">
+            <a class="logo link" href="index.html"
+              >Web<span class="studio-bottom">Studio</span></a
+            >
+          </h3>
+          <address class="footer-contact">
+            <ul class="footer-contact-list">
+              <li class="footer-contact-item adress">
+                m. Warszawa, Aleje Jerozolimskie 21
+              </li>
+              <li class="footer-contact-item">
+                <a
+                  class="footer-contact-link link"
+                  href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a class="footer-contact-link link" href="+48111111111"
+                  >+48 111 111 111</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <h3 class="footer-social-icon-title">DOŁĄCZ DO NAS</h3>
+        <div class="footer-social-icon">
+          <ul class="footer-social-icon-list list">
+            <li class="footer-social-icon-item">
+              <a class="footer-social-link link" href="#">
+                <svg class="footer-social-icon">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li class="footer-contact-item">
-              <a class="footer-contact-link link" href="mailto:info@example.com"
-                >info@example.com</a
-              >
+            <li class="footer-social-icon-item">
+              <a class="footer-social-link link" href="#">
+                <svg class="footer-social-icon">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a class="footer-contact-link link" href="+48111111111"
-                >+48 111 111 111</a
-              >
+            <li class="footer-social-icon-item">
+              <a class="footer-social-link link" href="#">
+                <svg class="footer-social-icon">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-social-icon-item">
+              <a class="footer-social-link link" href="#">
+                <svg class="footer-social-icon">
+                  <use href="./images/icons.svg#icon-linkedin2"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
- 
-      
-       <div class="footer-social-icon">
-        <h3 class="footer-social-icon-title">DOŁĄCZ DO NAS</h3>
-        <ul class="footer-social-icon-list list">
-          
-          <li class="footer-social-icon-item">
-            <a class="footer-social-link link" href="#">
-              <svg class="footer-social-icon">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-          </li>
-          <li class="footer-social-icon-item">
-            <a class="footer-social-link link" href="#">
-              <svg class="footer-social-icon">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-          </li>
-          <li class="footer-social-icon-item">
-            <a class="footer-social-link link" href="#">
-              <svg class="footer-social-icon">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-          </li>
-          <li class="footer-social-icon-item">
-            <a class="footer-social-link link" href="#">
-              <svg class="footer-social-icon">
-                <use href="./images/icons.svg#icon-linkedin2"></use>
-              </svg>
-          </li>
-        </ul>
+        </div>
       </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button type="button" class="close-btn" data-modal-close></button>
+        <button type="button" class="close-btn" data-modal-close>X</button>
+        <svg class="close-icon" width="270" height="120">
+          <use href="./images/icons.svg#icon-icon-close-black-18dp-2-1"></use>
+        </svg>
       </div>
     </div>
     <script src="./js/modal.js"></script>
