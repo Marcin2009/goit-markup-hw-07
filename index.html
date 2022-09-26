@@ -10,13 +10,13 @@
     />
     <link
       rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>WebStudio</title>
+    <title>Studio</title>
   </head>
-  <!-- Header -->
   <body>
+    <!-- Header -->
     <header class="header">
       <div class="container header-nav">
         <nav class="header-nav">
@@ -154,7 +154,7 @@
         </div>
       </section>
 
-<!-- Our team -->
+      <!-- Our team -->
       <section class="our-team">
         <div class="container">
           <h2 class="our-team-title">Nasz zespół</h2>
@@ -454,6 +454,26 @@
             </li>
           </ul>
         </div>
+
+        <div class="footer-newsletter">
+          <a class="footer-newsletter-title">ZAPISZ SIĘ DO NEWSLETTERA</a>
+          <form class="footer-newsletter-form">
+            <label class="footer-newsletter-label">
+              <input
+                class="footer-newsletter-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button type="submit" class="footer-newsletter-btn">
+              Zapisz się
+              <svg class="footer-newsletter-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
     <!-- Modal -->
@@ -463,6 +483,44 @@
         <svg class="close-icon" width="270" height="120">
           <use href="./images/icons.svg#icon-icon-close-black-18dp-2-1"></use>
         </svg>
+        <h3 class="modal-form-title">Zostaw swoje dane w formularzu poniżej</h3>
+        <form class="modal-form">
+          <label class="modal-label" for="name">Imię</label>
+
+          <div class="modal-form-textspace-title">
+            <input class="modal-form-input" type="text" name="username" />
+            <svg class="modal-icon">
+              <use href="./images/icons.svg#icon-person-form-18dp"></use>
+            </svg>
+          </div>
+
+          <label class="modal-label" for="phone">Telefon</label>
+
+          <div class="modal-form-textspace-title">
+            <input class="modal-form-input" type="text" name="username" />
+            <svg class="modal-icon">
+              <use href="./images/icons.svg#icon-phone-form-18dp"></use>
+            </svg>
+          </div>
+
+          <label class="modal-label" for="email">Email</label>
+          <div class="modal-form-textspace-title">
+            <input class="modal-form-input" type="text" name="username" />
+            <svg class="modal-icon">
+              <use href="./images/icons.svg#icon-email-form-18dp"></use>
+            </svg>
+          </div>
+          <label class="modal-label" for="comment">Komentarz</label>
+          <div class="modal-form-textspace-title">
+            <textarea
+              class="modal-form-textarea"
+              name="feedback"
+              placeholder="Wprowadź tekst"
+            ></textarea>
+          </div>
+          <input class="modal-form-policy visually-hidden" id="user-policy" type="checkbox">
+          <label class="modal-form-policy-text" for="user-policy">Oświadczam, iż akceptuję Regulamin</label>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
