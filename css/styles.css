@@ -1,4 +1,4 @@
-cc* {
+* {
   margin: 0px;
   padding: 0px;
 }
@@ -855,4 +855,29 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
   visibility: hidden;
   pointer-events: none;
   
+}
+.modal-submit-btn {
+  background: var(--link-color-hover);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  width: 200px;
+  height: 50px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: var(--studio-bottom-color);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: none;
+  letter-spacing: 0.06em;
+}
+
+.modal-submit-btn:hover,
+.modal-submit-btn:focus {
+  
+  background-color: #226FF3;
 }
