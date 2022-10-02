@@ -18,6 +18,7 @@ cc* {
   --menu-nav-menu-footer-bckgr: #2f303a;
   --link-color-hover: #2196f3;
   --color-icon: #afb1b8;
+  --text-color: #757575;
 }
 
 body {
@@ -79,7 +80,7 @@ img {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--text-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-right: 40px;
   
@@ -251,7 +252,7 @@ ul {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
   display: flex;
 }
 .feature-item {
@@ -375,7 +376,7 @@ ul {
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
   margin-top: 10px;
 }
 
@@ -629,7 +630,7 @@ ul {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color:  var(--text-color);
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -768,7 +769,7 @@ ul {
   font-size: 12px;
   height: 1.17;
   letter-spacing: 0.01em;
-  color: #757575;
+  color: var(--text-color);
   margin-top: 10px;
   
 }
@@ -804,6 +805,19 @@ textarea {
   font-size: 12px;
   line-height: 1.17;
 }
+.modal-form-policy-text {
+width: 397px;
+height: 24px;
+left: 613px;
+top: 658px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+color: var(--text-color);
+}
+
 .modal-form-policy{
  justify-content: center;
 }
