@@ -45,7 +45,7 @@ ul {
   max-width: 1200px;
   margin: 0 auto;
   align-items: center;
-  outline: 2px dashed #f44336;
+  /* outline: 2px dashed #f44336; */
 }
 
 img {
