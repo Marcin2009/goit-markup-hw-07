@@ -19,6 +19,7 @@
   --link-color-hover: #2196f3;
   --color-icon: #afb1b8;
   --text-color: #757575;
+  --regulations-link-color: #0d0d61;
 }
 
 body {
@@ -880,6 +881,10 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
 .modal_form-regulations-link{
 margin-left: 2px;
 margin-right: 2px;
+}
+.modal_form-regulations-link:focus,
+.modal_form-regulations-link:hover{
+  color: var(--regulations-link-color)
 }
 .modal-submit-btn {
   /* position:relative; */
